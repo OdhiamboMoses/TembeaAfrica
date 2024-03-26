@@ -77,8 +77,12 @@ nav>ul>li>a:hover{
     height: 400px;
     border-radius: 10px;
     margin: 20px;
+    box-shadow: 1px 1px 1px 2px orange;
 }
 #about>.about-cont p{
     text-align: justify;
-    margin-right: 5%;
+    margin-right: 10%;
+}
+#about>img:hover{
+    
 }
