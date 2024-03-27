@@ -78,11 +78,14 @@ nav>ul>li>a:hover{
     border-radius: 10px;
     margin: 20px;
     box-shadow: 1px 1px 1px 2px orange;
+    transition: transform .9s;
 }
 #about>.about-cont p{
     text-align: justify;
     margin-right: 10%;
 }
 #about>img:hover{
-    
+    transform: scale(0.9);
+    margin-left: 4%;
+    box-shadow: 1px 1px 1px 2px rgb(90, 255, 90);
 }
