@@ -51,19 +51,32 @@ nav>ul>li>a:hover{
     background: rgba(221, 109, 35, 0.678);
     color: rgba(0, 35, 122, 0.7);
 }
+#banner{
+    padding-bottom: 1.5%;
+
+}
 #banner>a{
     text-decoration: none;
 }
 #banner>a>h4{
-    font-size: 8rem;
-    color: rgb(238, 167, 37);
+    border: 2px solid white;
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+    margin-top: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     text-align: center;
-    margin-top: 15%;
+    color: white;
+}
+#banner>a>h4:hover{
+    background-color: rgba(221, 109, 35, 0.678);
+    color: rgba(0, 35, 122, 0.7);
 }
 #about{
     height: 91vh;
     width: 100%;
-    padding-top: 20px;
+    margin-top: 5%;
 }
 #about{
     display: flex;
@@ -78,14 +91,56 @@ nav>ul>li>a:hover{
     border-radius: 10px;
     margin: 20px;
     box-shadow: 1px 1px 1px 2px orange;
-    transition: transform .9s;
+    transition: transform .97s;
 }
 #about>.about-cont p{
     text-align: justify;
     margin-right: 10%;
 }
 #about>img:hover{
-    transform: scale(0.9);
+    transform: scale(0.95);
     margin-left: 4%;
     box-shadow: 1px 1px 1px 2px rgb(90, 255, 90);
+}
+#services{
+    height: 91vh;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#services>h3{
+    text-align: left;
+    color: rgba(255, 255, 255, 0.733);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+#activities{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#activities tr{
+    background-color: #f2f2f2;
+}
+#activities tr:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+#activities {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ddd;
+    width: 50%;
+    border-collapse: collapse;
+}
+#activities td  and #activities th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    color: white;
+}
+#contacts{
+    height: 91vh;
 }
