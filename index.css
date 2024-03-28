@@ -136,9 +136,15 @@ nav>ul>li>a:hover{
     width: 50%;
     border-collapse: collapse;
 }
-#activities td  and #activities th{
+#activities td{
     border: 1px solid #ddd;
     padding: 8px;
+    color: white;
+}
+#activities th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
     color: white;
 }
 #contacts{
