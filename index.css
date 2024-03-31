@@ -55,17 +55,17 @@ nav>ul>li>a:hover{
     padding-bottom: 1.5%;
 
 }
-#banner>a{
-    text-decoration: none;
+#banner>h4{
+    margin-top: 5%;
 }
-#banner>a>h4{
+#banner>h4>a{
     border: 2px solid white;
+    text-decoration: none;
     width: 20%;
     height: 20%;
-    margin-left: 40%;
+    margin-left: 45%;
     margin-top: 10%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding: 18px;
     text-align: center;
     color: white;
 }
@@ -96,6 +96,8 @@ nav>ul>li>a:hover{
 #about>.about-cont p{
     text-align: justify;
     margin-right: 10%;
+    font-size: larger;
+    margin-top: 1%;
 }
 #about>img:hover{
     transform: scale(0.95);
@@ -123,7 +125,7 @@ nav>ul>li>a:hover{
 
 }
 #activities tr{
-    background-color: #f2f2f2;
+    background-color: #b8abab;
 }
 #activities tr:hover{
     background-color: rgba(0, 0, 0, 0.5);
@@ -133,7 +135,8 @@ nav>ul>li>a:hover{
     margin-left: auto;
     margin-right: auto;
     border: 1px solid #ddd;
-    width: 50%;
+    width: 75%;
+    height: 50%;
     border-collapse: collapse;
 }
 #activities td{
@@ -148,5 +151,59 @@ nav>ul>li>a:hover{
     color: white;
 }
 #contacts{
-    height: 91vh;
+    height: auto;
+    background-color: rgb(206, 199, 199);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-form form{
+    width: 100%;
+    height: auto;
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 40px;
+    margin-bottom: 5%;
+    background-image: url(formbg.avif);
+}
+.contact-form h3{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    width: 100%;
+    color: white;
+}
+.contact-form label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    width: 75%;
+    color: white;
+    padding: 10px;
+}
+.contact-form input{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    width: 75%;
+    border-radius: 5px;
+}
+.contact-form textarea{
+    border-radius: 5px;
+    margin: 10px;
+}
+.contact-form button{
+    background-color: rgb(76, 245, 76);
+    border: none;
+    border-radius: 5px;
+    padding: 18px;
+    margin: 5px;
+    color: white;
+}
+.contact-form button:hover{
+    background-color: white;
+    color: blue;
+    font-weight: bold;
 }
